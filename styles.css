@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body,
+header h1 {
+    margin: 0;
+    background-color: whitesmoke;
+    max-width: 100%;
+}
+
+header,
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header ul {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: black;
+    list-style: none;
+    margin: 0% 3%;
+    padding-left: 0;
+    margin: 30px 0 65px 0;
+}
+
+header li {
+    margin-top: .7rem;
+    background-color: white;
+    padding: 15px 0;
+}
+
+header img {
+    margin: 0 auto;
+}
+
+header p {
+    text-align: center;
+    margin: 0 auto;
+    hyphens: auto;
+    color: grey;
+    font-size: 1.3rem;
+    margin: 40px 0 30px 0;
+}
+
+.portfolio {
+    background-color: white;
+    padding-top: 2.5rem;
+}
+
+.portfolio h3 {
+    color: grey;
+    padding-bottom: 1.5rem;
+}
+
+.portfolio h4 {
+    font-size: 20px;
+    color: grey;
+}
+
+.portfolio p {
+    color: grey;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    color: grey;
+}
+
+hr {
+    width: 70%;
+}
+
+.page-top {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+
+/* MEDIA QUERY FOR TABLET */
+@media (min-width: 768px) {
+
+    header ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 3% 20%;
+    }
+
+    header li {
+        background-color: whitesmoke;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 0 auto;
+    }
+
+    .intro p {
+        padding: 0px 15px;
+        text-align: left;
+    }
+
+    .port-intro {
+        padding: 0 40%;
+        font-size: 2.5rem;
+    }
+
+    .portfolio {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        flex-direction: column;
+        flex: 1 30%;
+        margin: 4% 4.1%;
+    }
+
+    .contact {
+        margin: 0 20%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    header h1,
+    header ul {
+        margin: 3% 0;
+        padding-left: 2%;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 700;
+    }
+
+    header li {
+        padding: 0 25px 20px 25px;
+    }
+
+    .intro img {
+        width: 500px;
+        height: 280px;
+    }
+
+    .intro p {
+        margin: auto 5%;
+    }
+
+    .port-intro {
+        margin: 0 auto;
+    }
+
+    .col {
+        margin: 0 1.04%;
+    }
+
+    footer {
+        font-size: 1.2rem;
+    }
+}
