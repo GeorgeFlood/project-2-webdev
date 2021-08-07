@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
     scroll-behavior: smooth;
+    text-decoration: none;
 }
 
 body,
@@ -87,6 +88,10 @@ hr {
     display: none;
 }
 
+a {
+    color: black;
+    font-weight: 500;
+}
 
 /* MEDIA QUERY FOR TABLET */
 @media (min-width: 768px) {
