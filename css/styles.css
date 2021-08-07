@@ -83,6 +83,10 @@ hr {
     margin: auto;
 }
 
+.bigger-foot {
+    display: none;
+}
+
 
 /* MEDIA QUERY FOR TABLET */
 @media (min-width: 768px) {
@@ -127,6 +131,17 @@ hr {
 
     .contact {
         margin: 0 20%;
+    }
+
+    .mobile-foot {
+        display: none;
+    }
+
+    .bigger-foot,
+    li {
+        display: flex;
+        list-style: none;
+        padding-right: 10px;
     }
 
 }
